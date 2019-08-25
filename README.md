@@ -25,18 +25,20 @@ Decompress the datasets:
    
 ### Answering the Research Questions
 Execute the research questions scripts:
-   - `python3 rq-precision_recall_time.py` (RQ1, RQ4)
-   - `python3 rq-trainset_size.py` (RQ2)
-   - `python3 rq-afc_category_precision.py` (RQ3)
-   - `python3 rq-storage_overhead.py` (RQ4)
+   - `python3 py/rq-precision_recall_time.py` (RQ1, RQ4)
+   - `python3 py/rq-trainset_size.py` (RQ2)
+   - `python3 py/rq-afc_category_precision.py` (RQ3)
+   - `python3 py/rq-storage_overhead.py` (RQ4)
   
 Directory Structure
 ---------------
 This is the root directory of the repository. The directory is structured as follows:
 
     FLAST
-     .                   Scripts with FLAST implementation and experiments.
+     .
      |
      |--- datasets/      Datasets and dataset information (links and commit hash).
+     |
+     |--- py/            Scripts with FLAST implementation and scripts to run experiments.
      |
      |--- results/       Folder containing the raw results of the experiments and the aggregate results.
