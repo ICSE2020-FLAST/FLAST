@@ -37,8 +37,8 @@ This is the root directory of the repository. The directory is structured as fol
     FLAST
      .
      |
-     |--- datasets/      Datasets and dataset information (links and commit hash).
+     |--- datasets/      Datasets and dataset information (links and commit hash). The folder is automatically created after the decompression of `datasets.tgz`.
      |
      |--- py/            Scripts with FLAST implementation and scripts to run experiments.
      |
-     |--- results/       Folder containing the raw results of the experiments and the aggregate results.
+     |--- results/       Folder containing the raw results of the experiments and the aggregate results. The folder is automatically created after the execution of the scripts for the experiments.
