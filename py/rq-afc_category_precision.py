@@ -62,9 +62,9 @@ if __name__ == "__main__":
     if threshold < 0.5 or threshold > 1:
         print("FLAST threshold must be in [0.5, 1]")
         exit()
-    thresholdName = "t-0.5" if threshold == 0 else "t-{}".format(threshold)
     if threshold == 0.5:
         threshold = 0
+    thresholdName = "t-0.5" if threshold == 0 else "t-{}".format(threshold)
     reduceDim = False if dim < 0 else True
 
     resultsPath = "results/rq-afc_category_precision/{}".format(thresholdName)
