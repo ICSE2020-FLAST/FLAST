@@ -29,7 +29,17 @@ Execute the research questions scripts:
    - `python3 py/rq-trainset_size.py` (RQ2)
    - `python3 py/rq-afc_category_precision.py` (RQ3)
    - `python3 py/rq-storage_overhead.py` (RQ4)
-  
+
+Pseudocode
+---------------
+The pseudocode of FLAST is available [here](pseudocode/README.md).
+
+
+Experiment Results
+---------------
+The cleaned data of the results reported in the paper are available [here](results/README.md).
+
+
 Directory Structure
 ---------------
 This is the root directory of the repository. The directory is structured as follows:
