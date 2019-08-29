@@ -30,6 +30,10 @@ Execute the research questions scripts:
    - `python3 py/rq-afc_category_precision.py` (RQ3)
    - `python3 py/rq-storage_overhead.py` (RQ4)
 
+Each of the scripts above contains a variable named `threshold` which is set by default at 0.5.
+To run the experiments with FLAST with threshold 0.95 just update that line of each script.
+Currently only values in [0.5, 1] are supported (theoretically the threshold could be in [0, 1]).
+
 Pseudocode
 ---------------
 The pseudocode of FLAST is available [here](pseudocode/README.md).
