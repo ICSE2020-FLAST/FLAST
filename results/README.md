@@ -1,6 +1,14 @@
 Evaluation Results
 ----------------
 
+### Raw data
+Here you can find the raw data used in our evaluation.
+
+ - Data used for the research question related to effectiveness (RQ1): [no-threshold](RQ1-no-threshold.csv) and [with-threshold](RQ1-threshold.csv)
+ - Data used for the research question related to training sample size (RQ2): [no-threshold](RQ2-no-threshold.csv) and [with-threshold](RQ2-threshold.csv)
+ - Data used for the research question related to the flaky category (RQ3): [no-threshold](RQ3-no-threshold.csv) and [with-threshold](RQ3-threshold.csv)
+  - Data used for the research question related to efficiency (RQ4): [time](RQ4-time.csv) and [storage overhead](RQ4-memory.csv)
+
 ### Evaluation Datasets
 <img src="img/tab_datasets.png" width="50%">
 
