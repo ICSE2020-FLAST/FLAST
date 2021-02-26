@@ -1,6 +1,8 @@
-The up-to-date version of this repository can be found [here](https://github.com/FlakinessStaticDetection/FLAST)
+# The up-to-date version of this repository can be found [here](https://github.com/FlakinessStaticDetection/FLAST)
 
-# Know Your Neighbor: Fast Static Prediction of Test Flakiness
+---------------
+
+## Know Your Neighbor: Fast Static Prediction of Test Flakiness
 
 This repository is a companion page for the ISTI-CNR technical report "Know Your Neighbor: Fast Static Prediction of Test Flakiness" ([link](https://openportal.isti.cnr.it/data/2020/415418/2020_415418.pdf))
 
